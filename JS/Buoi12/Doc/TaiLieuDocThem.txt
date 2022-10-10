@@ -1,0 +1,25 @@
+JS - DOM Cơ Bản
+✔️ Mindmap:
+https://drive.google.com/file/d/1skSkUG2tmbmxdFRe-Y6u0145BMS9Szje/view
+
+✔️ Link tham khảo:
+Các cách thêm CSS bằng JS:
+https://www.w3schools.com/jsref/prop_style_csstext.asp
+https://www.w3schools.com/jsref/prop_element_classlist.asp
+https://www.w3schools.com/jsref/prop_html_classname.asp
+
+Các cách thêm sự kiện (event) trong JS:
+https://www.w3schools.com/jsref/event_onclick.asp
+
+Các event trong JS:
+https://www.w3schools.com/jsref/dom_obj_event.asp
+
+Các cách ép kiểu dữ liệu (chuyển string sang number):
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+https://www.w3schools.com/jsref/jsref_parseint.asp
+https://www.w3schools.com/jsref/jsref_parsefloat.asp
+
+Format Number trong JS:
+https://www.w3schools.com/jsref/jsref_round.asp
+https://www.w3schools.com/jsref/jsref_tofixed.asp
+https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp

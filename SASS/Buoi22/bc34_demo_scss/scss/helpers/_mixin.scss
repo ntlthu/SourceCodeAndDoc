@@ -1,0 +1,7 @@
+@mixin block-content($bg) {
+  width: 50%;
+  background-color: $bg;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}

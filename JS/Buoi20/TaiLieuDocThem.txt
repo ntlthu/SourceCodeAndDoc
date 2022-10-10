@@ -1,0 +1,30 @@
+JS - Validation
+✔️ Mindmap
+https://drive.google.com/file/d/1w8HaIZ1Gn7L8WBVXPikgK44mEgaEkACu/view
+
+✔️ RegExp
+- Web learn, build, test RegExp: 
+https://regexr.com/?fbclid=IwAR1yiTVhW-dgUwXaeX4Tvfgy95xLWy41y5k40xPZRB-i09buxJ-z4o2pMb0
+
+- Cú pháp sử dụng RegExp trong JS:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
+✔️ Validate Date
+- Chuỗi regexp định dạng ngày:
+mm/dd/yyyy: /^(0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])[\/\-]\d{4}$/
+
+- Kiểm tra tuổi nhập học bằng cách tính tuổi từ ngày sinh:
+https://codepen.io/Khloe1425/pen/MWowMVw
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear
+
+https://www.w3schools.com/js/js_dates.asp
+
+✔️ Link tham khảo: 
+https://www.w3schools.com/jsref/jsref_trim_string.asp
+
+https://www.w3schools.com/jsref/prop_select_selectedindex.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger

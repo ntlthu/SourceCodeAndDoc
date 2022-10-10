@@ -1,0 +1,45 @@
+Kiến thức thêm SASS
+✔️  Mindmap
+https://drive.google.com/file/d/102D83itSb4fzh1RxTEiBy0bvg4BZPv-I/view
+
+✔️ Công cụ biên dịch
+<aside>
+📌 **Lưu ý:**
+
+- Đường dẫn thư mục không có khoảng trắng, không gõ dấu tiếng viêt.
+- Live sass chỉ cho phép để 1 folder project trong workspace của VS code
+</aside>
+
+- Live SASS
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
+
+1. Cài đặt đường dẫn tạo file css bằng visual code:
+ Extensions → Live Sass Compiler → Extension Settings → Edit in settings.json
+
+2. Dán đoạn code bên dưới vào cuối file setting
+"liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }        
+    ]
+
+3. Koala (nếu không dùng được live sass) :
+http://koala-app.com/
+
+✔️ Extension hỗ trợ
+https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss
+
+https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter
+
+✔️ Các cú pháp nâng cao:
+
+- Sử dụng function trong SASS
+https://codepen.io/Khloe1425/pen/PoWmJyj
+
+- Loop trong sass
+https://codepen.io/Khloe1425/pen/dyNWVQM
+
+

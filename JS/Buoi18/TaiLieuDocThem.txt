@@ -1,0 +1,107 @@
+JS - Các hàm thông dụng với Array
+✔️ Link tham khảo:
+https://dev.to/tutsmake/20-javascript-array-methods-2h9o
+Map: tạo ra 1 mảng mới từ mảng cũ
+const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(function(num,index){ 
+	return num * 2;
+});
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+Filter: Phương thức này nhằm tạo ra mảng mới với các điều kiện cho trước
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(function(word,index){
+	return word.length > 6;
+});
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+
+find: trả về 1 giá trị đầu tiên thoả điều kiện
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(function(element){
+	return element > 10;
+});
+
+console.log(found);
+// expected output: 12
+
+findIndex: trả về index của phần tử đầu tiên thoả điều kiện
+const array1 = [5, 12, 8, 130, 44];
+
+const isLargeNumber = function(element){ 
+	return element > 13;
+}
+
+console.log(array1.findIndex(isLargeNumber));
+// expected output: 3
+
+
+fill: thay đổi giá trị của các phần tử bằng giá trị mới
+const array1 = [1, 2, 3, 4];
+
+// fill with 0 from position 2 until position 4
+console.log(array1.fill(0, 2, 4));
+// expected output: [1, 2, 0, 0]
+
+// fill with 5 from position 1
+console.log(array1.fill(5, 1));
+// expected output: [1, 5, 5, 5]
+
+console.log(array1.fill(6));
+// expected output: [6, 6, 6, 6]
+
+copyWithin: copy giá trị ở 1 vị trí trong mảng và thay thế 1 hoặc nhiều vị trí khác trong mảng bằng giá trị vừa copy (làm thay đổi mảng hiện tại)
+const array1 = ['a', 'b', 'c', 'd', 'e'];
+
+// copy to index 0 the element at index 3
+console.log(array1.copyWithin(0, 3, 4));
+// expected output: Array ["d", "b", "c", "d", "e"]
+
+// copy to index 1 all elements from index 3 to the end
+console.log(array1.copyWithin(1, 3));
+// expected output: Array ["d", "d", "e", "d", "e"]
+
+some: kiểm tra phần tử trong mảng và trả về kết quả true ngay khi gặp phần tử đầu tiên thoả điều kiện. Ví dụ: nếu có ít nhất 1 số là số chẵn trong mảng thì trả về true, ngược lại là false
+const array = [1, 2, 3, 4, 5];
+
+// checks whether an element is even
+const even = function(element){
+	return element % 2 === 0;
+}
+
+console.log(array.some(even));
+// expected output: true
+
+every: gần giống như some nhưng every sẽ kiểm tra hết mảng rồi mới trả về true/false
+const isBelowThreshold = function(currentValue){
+	return currentValue < 40;
+}
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+// expected output: true
+
+reduce: được sử dụng để thực thi một hàm lên các phần tử của mảng (từ trái sang phải) với một biến tích lũy để thu về một giá trị duy nhất.
+const array1 = [1, 2, 3, 4];
+const reducer = function(previousValue, currentValue){ 
+	return previousValue + currentValue;
+}
+
+// 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer, 5));
+// expected output: 15
+
+So sánh map, filter, reduce
+https://anonystick.com/blog-developer/tu-hoc-javascript-truong-hop-nao-su-dung-map-filter-reduce-trong-javascript-zzlYN6YR.jsx

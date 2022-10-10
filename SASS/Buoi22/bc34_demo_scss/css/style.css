@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#myDiv .title {
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#myDiv .demo {
+  background-color: blue;
+}
+
+.spanText {
+  color: white;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .left {
+  width: 50%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.content .right {
+  width: 50%;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.container {
+  background-color: orange;
+}
+
+.btn1, .btn2 {
+  background-color: aqua;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  font-size: 16px;
+}
+
+.heading-1 {
+  font-size: 2rem;
+}
+
+.heading-2 {
+  font-size: 4rem;
+}
+
+.heading-3 {
+  font-size: 6rem;
+}
+
+.heading-4 {
+  font-size: 8rem;
+}
+
+.heading-5 {
+  font-size: 10rem;
+}
+
+.heading-6 {
+  font-size: 12rem;
+}
+
+.heading-7 {
+  font-size: 14rem;
+}
+
+.heading-8 {
+  font-size: 16rem;
+}
+
+.heading-9 {
+  font-size: 18rem;
+}
+
+.heading-10 {
+  font-size: 20rem;
+}
+
+.facebook {
+  background-image: url("./img/facebook.png");
+}
+
+.youtube {
+  background-image: url("./img/youtube.png");
+}
+
+.google {
+  background-image: url("./img/google.png");
+}
+/*# sourceMappingURL=style.css.map */

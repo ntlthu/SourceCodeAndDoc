@@ -1,0 +1,7 @@
+JS - Lệnh điều kiện (Condition)
+✔️ Mindmap:
+https://drive.google.com/file/d/1c6TYsk7koNfEuyOi66n08_AJC-jhi1CP/view
+
+✔️ Link tham khảo:
+Công cụ vẽ flowchart:
+https://app.diagrams.net/

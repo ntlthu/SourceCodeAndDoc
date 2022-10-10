@@ -1,0 +1,20 @@
+Buoi15_JS_Tài Liệu Đọc Thêm
+JS - Hàm (Function)
+✔️ Mindmap
+<aside>
+📝 **Các đoạn code cần tách chuyển thành hàm:**
++ Code trong 1 hàm quá dài
++ Code lặp lại nhiều lần
++ Code có chung công thức giống nhau chỉ khác giá trị
+
+Cách để nắm và hiểu kiến thức đã học: l**àm lại ít nhất 3 lần demo trên lớp
++** Lần 1: vừa làm vừa xem code mẫu để làm quen cú pháp và nghiên cứu ý nghĩa từng dòng code (chỗ nào không hiểu các bạn inbox group chat để hỏi)
++ Lần 2: không nhìn code mẫu, chỗ nào quên thì xem code mẫu tham khảo
++ Lần 3: làm thêm 1 lần cho thiệt nhớ kiến thức
+
+</aside>
+
+https://drive.google.com/file/d/10WVUEKPIaH-HyPjMhv5jWamedJ0A2K9T/view
+
+Condition Flowchart condition bài Grab:
+https://drive.google.com/file/d/1eEli_2xxWtp6UMCztTYcMVdJV49d1S1A/view

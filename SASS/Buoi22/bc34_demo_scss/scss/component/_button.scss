@@ -1,0 +1,11 @@
+.btn1 {
+  background-color: aqua;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  @extend .btn1;
+  font-size: 16px;
+}

@@ -1,0 +1,157 @@
+* {
+  outline: none;
+}
+
+body {
+  margin: 8px;
+  background-color: #f1496a;
+}
+
+body,
+input,
+button {
+  font-family: "Muli", sans-serif;
+}
+
+#cover {
+  width: 722px;
+  height: 522px;
+  padding: 45px;
+  margin: 0 auto;
+}
+
+#form-ui,
+form,
+#close-form {
+  position: relative;
+}
+
+form {
+  width: 262px;
+  height: 472px;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 15px 60px #b6354e;
+  border-radius: 20px;
+}
+
+
+
+
+
+#form-body {
+  width: 230px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+#welcome-lines {
+  text-align: center;
+  line-height: 1;
+}
+
+#w-line-1 {
+  color: #7f7f7f;
+  font-size: 30px;
+}
+
+
+#input-area {
+  margin-top: 20px;
+}
+
+.f-inp {
+  padding: 11px 25px;
+  border: 1px solid #e3e3e3;
+  line-height: 1;
+  border-radius: 20px;
+}
+
+.f-inp:first-child {
+  margin-bottom: 15px;
+}
+
+.f-inp input {
+  width: 100%;
+  font-size: 13.4px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.f-inp input::placeholder {
+  color: #b9b9b9;
+}
+
+#submit-button-cvr {
+  margin-top: 10px;
+}
+
+#submit-button {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 14px 13px 12px 13px;
+  border: 0;
+  background-color: #f5506e;
+  border-radius: 25px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+
+
+
+#img-box {
+  position: absolute;
+  top: 50%;
+  left: 312px;
+  width: 394px;
+  height: 475px;
+  margin-top: -237.5px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  overflow: hidden;
+}
+
+#img-box img {
+  display: block;
+}
+
+.note {
+  text-align: center;
+  margin-top: 10px;
+  color: #868686;
+  font-size: 12px;
+}
+.box{
+  text-align: center;
+  margin: 10px 0;
+}
+.box label, .box input{
+  display: block;
+  width: 100%;
+  color: #7f7f7f;
+}
+
+
+input[type='range'] {
+  overflow: hidden;
+  -webkit-appearance: none;
+  background-color: #f1496a;
+  margin-top: 5px;
+}
+
+
+input[type='range']::-webkit-slider-thumb {
+  width: 10px;
+  -webkit-appearance: none;
+  height: 10px;
+  cursor: ew-resize;
+  background: #b9b9b9;
+  box-shadow: -200px 0 0 200px #b6354e;
+  
+}

@@ -1,0 +1,85 @@
+body {
+  color: #222260;
+ 
+}
+.calculate{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg ,#BEC4FE, #FFF7FA);
+}
+.calculate .card{
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background: linear-gradient(117.76deg, rgba(255, 255, 255, 0.7) -7.21%, rgba(255, 255, 255, 0.5) 118.08%);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 2%);
+  border: 1px solid #ffffff;
+}
+
+.calculate .card-header{
+  background: transparent;
+    border-radius: 0;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.calculate .card-body{
+  padding: 30px;
+}
+
+.invalid {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #96031a;
+  border-radius: 8px;
+    
+}
+input.form-control{
+  background: transparent;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    color: #222260;
+    padding: 1.4em;
+   
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: #F56692;
+}
+
+label i{
+  cursor: pointer;
+  font-size: 25px;
+}
+input[type="radio"]{
+  display: none;
+}
+
+input:checked ~ label{
+  color: #F56692;
+  
+}
+
+.btn{
+  color: #fff;
+    background-color: #F56692;
+    border-color: #F56692;
+    box-shadow: unset;
+}
+
+.btn:hover{
+  color: #fff;
+    background-color: #f34278;
+    border-color: #f23670;
+}
+#result{
+  display: none;
+  background-color: transparent;
+}

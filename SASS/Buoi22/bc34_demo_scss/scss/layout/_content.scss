@@ -1,0 +1,44 @@
+#myDiv {
+  .title {
+    background-color: $bg-color;
+    color: $color;
+    // font-size: $fs;
+    // font-weight: bold;
+    // font-style: italic;
+    font: {
+      size: $fs;
+      weight: bold;
+      style: italic;
+    }
+  }
+
+  .demo {
+    background-color: $bg-color;
+  }
+}
+
+.spanText {
+  color: $color;
+}
+
+.content {
+  display: flex;
+
+  .left {
+    @include block-content(green);
+  }
+
+  .right {
+    @include block-content(blue);
+  }
+}
+
+.container {
+  @if $blockColor == green {
+    background-color: green;
+  } @else if $blockColor == red {
+    background-color: red;
+  } @else {
+    background-color: orange;
+  }
+}

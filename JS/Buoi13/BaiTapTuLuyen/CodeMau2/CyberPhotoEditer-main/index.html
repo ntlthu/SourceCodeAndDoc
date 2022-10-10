@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editor</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <div class="main-container">
+        <div class="first-container">
+            <div>
+                <input type="text" id="search-box" placeholder="enter image url">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="second-container">
+            <div class="image-container">
+                <img src="./img/Landscape-Color.jpg" id="img" alt="image">
+            </div>
+            <div class="control-menu">
+                <div class="box box1">
+                    <label for="brightness-slider">brightness</label>
+                    <input type="range" id="brightness-slider" min="0" max="170" value="100" oninput="updateImage()">
+                </div>
+                <div class="box box2">
+                    <label for="contrast-slider">contrast</label>
+                    <input type="range" id="contrast-slider" min="0" max="170" value="100" oninput="updateImage()">
+                </div>
+                <div class="box box3">
+                    <label for="hue-slider">hue</label>
+                    <input type="range" id="hue-slider" min="0" max="360" value="0" oninput="updateImage()">
+                </div>
+                <div class="box box4">
+                    <label for="blur-slider">blur</label>
+                    <input type="range" id="blur-slider" min="0" max="10" value="0" oninput="updateImage()">
+                </div>
+                <div class="box box5">
+                    <label for="saturation-slider">saturation</label>
+                    <input type="range" id="saturation-slider" min="0" max="300" value="100" oninput="updateImage()">
+                </div>
+                <div class="box box6">
+                    <label for="sepia-slider">sepia</label>
+                    <input type="range" id="sepia-slider" min="0" max="100" value="0" oninput="updateImage()">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div> -->
+
+    <div id="cover">
+        <div id="form-ui">
+            <form method="post" action="">
+               
+                <div id="form-body">
+                    <div id="welcome-lines">
+                        <div id="w-line-1">PHOTO EDITOR</div>
+                    </div>
+                    <div id="input-area">
+                        <div class="f-inp">
+                            <input type="text" id="search-box" placeholder="Enter Image URL">
+                        
+                        </div>
+                        
+                    </div>
+                    <div id="submit-button-cvr">
+                        <button type="button" id="submit-button">Submit</button>
+                        <p class="note">Ex: https://source.unsplash.com/400x500?pizza</p>
+                    </div>
+                    <div class="control-menu">
+                        <div class="box box1">
+                            <label for="brightness-slider">brightness</label>
+                            <input class="slider" type="range" id="brightness-slider" min="0" max="170" value="100"
+                                oninput="updateImage()">
+                        </div>
+                        <div class="box box2">
+                            <label for="contrast-slider">contrast</label>
+                            <input type="range" id="contrast-slider" min="0" max="170" value="100"
+                                oninput="updateImage()">
+                        </div>
+                        <div class="box box3">
+                            <label for="hue-slider">hue</label>
+                            <input type="range" id="hue-slider" min="0" max="360" value="0" oninput="updateImage()">
+                        </div>
+                        <div class="box box4">
+                            <label for="blur-slider">blur</label>
+                            <input type="range" id="blur-slider" min="0" max="10" value="0" oninput="updateImage()">
+                        </div>
+                        <div class="box box5">
+                            <label for="saturation-slider">saturation</label>
+                            <input type="range" id="saturation-slider" min="0" max="300" value="100"
+                                oninput="updateImage()">
+                        </div>
+                        <div class="box box6">
+                            <label for="sepia-slider">sepia</label>
+                            <input type="range" id="sepia-slider" min="0" max="100" value="0" oninput="updateImage()">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div id="img-box">
+                <img id="img" src="https://source.unsplash.com/400x500" alt="UI Image">
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

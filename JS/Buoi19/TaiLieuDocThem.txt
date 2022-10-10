@@ -1,0 +1,17 @@
+JS - Object,Class (ES5)
+✔️ Mindmap
+https://drive.google.com/file/d/14vHkSIlKkAWKBU9c_AiikrR3RKQ46lpr/view
+
+✔️ Link tham khảo
+Flowchart QLSV (xem bằng diagrams.net) :
+https://drive.google.com/file/d/1D7GSN-b0rfbAX118oJpOHhw9AvX3ei9G/view
+
+Sơ đồ lớp QLSV:
+https://drive.google.com/file/d/1k3SjfLjh9dVh9EwhD-JgKUoQyYBsOxlm/view
+
+Phân tích thiết kế hệ thống thông tin sử dụng biểu đồ UML
+https://www.tutorialspoint.com/uml/uml_standard_diagrams.htm
+
+https://www.smartdraw.com/uml-diagram/
+
+https://viblo.asia/p/phan-tich-thiet-ke-he-thong-thong-tin-su-dung-bieu-do-uml-phan-1-PjxMe6yNG4YL

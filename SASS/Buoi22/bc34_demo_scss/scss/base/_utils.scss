@@ -1,0 +1,11 @@
+@for $size from 1 through 10 {
+  .heading-#{$size} {
+    font-size: 2rem * $size;
+  }
+}
+
+@each $item in $socials {
+  .#{$item} {
+    background-image: url("./img/#{$item}.png");
+  }
+}
