@@ -1,0 +1,9 @@
+https://fire-hole-3af.notion.site/JS-ES6-52fb8333e3d1496b8fdfda494e4c1d3d
+
+JS - ES6
+✔️ Cheat sheet
+https://gist.github.com/vasco3/22b09ef0ca5e0f8c5996
+
+✔️ Link tham khảo
+https://github.com/khloe1425/33-js-concepts
+https://github.com/khloe1425/You-Dont-Know-JS

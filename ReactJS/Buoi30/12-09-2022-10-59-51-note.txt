@@ -1,0 +1,39 @@
+1/ Component
+2/ State
+3/ Props
+4/ Redux
+5/ Life cycle
+6/ Hook
+7/ Router
+
+=====================
+1/ lệnh khởi tạo cấu trúc thư mục react: npx create-react-app [(tên folder không dấu không khoảng trắng)]
+2/ cài đặt thư mục chưa thư viện (node_modules): npm install
+3/ lệnh chạy server react: npm start
+
+
+===========
+
+- Cấu trúc component:
+1/ function component
+2/ class component
+
+============
+
+- Quy tắc đặt tên Component:
+1/ Không có dấu, không khoảng trắng, không chứa ký tự số, không nên gạch ngang hay dưới
+2/ Chữ cái đầu phải viết HOA.
+
+=========
+
+- Generate nhanh 
+class component: rcc
+function component: rfc
+
+========
+
+- Cấu trúc thư mục react:
++ node_modules: nơi chứa các thư viện đã cài đặt
++ public: nơi chưa file index.html và các tài nguyên của web
++ src: nơi chứa các file javascript, css,... Xử lý công việc.
++ package.json: nơi lưu lại tên thư viện đã cài đặt (dùng để setup khi xóa node_modules)

@@ -1,0 +1,111 @@
+https://fire-hole-3af.notion.site/JS-OOP-252a6b37c49a489f92dd459b615b7f61
+
+JS - OOP
+✔️ OOP - Các hỗ trợ của ES6
+- Cú pháp khai báo Class rõ ràng
+    - Có từ khoá khai báo class
+    - Có hàm khởi tạo constructor
+class User {
+	constructor(name, age, emmail){
+	  this.name = name;
+	    this.age = age;
+	    this.email = email;
+	  }
+}
+
+const user1 = new User('messi', 31, 'messi@gmail.com')
+const user2 = new User('ronaldo', 32, 'ronaldo@gmail.com')
+const user3 = new User('nani', 31, 'nani@gmail.com')
+
+- Có hỗ trợ static
+    
+    Các thuộc tính và phương thức là static thì sẽ được truy cập trực tiếp từ Class mà không cần qua instance
+    
+    - static method (Phương thức tĩnh)
+    - static properties (Thuộc tính tĩnh)
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  static displayName = "Point";
+  static distance(a, b) {
+    const dx = a.x - b.x;
+    const dy = a.y - b.y;
+
+    return Math.hypot(dx, dy);
+  }
+}
+
+const p1 = new Point(5, 5);
+const p2 = new Point(10, 10);
+p1.displayName; // undefined
+p1.distance;    // undefined
+p2.displayName; // undefined
+p2.distance;    // undefined
+
+console.log(Point.displayName);      // "Point"
+console.log(Point.distance(p1, p2)); // 7.0710678118654755
+
+- Cải tiến cơ chế kế thừa
+    - Không cần sử dụng prototype, thay bằng extend
+    - super giúp gọi lại properties, method của lớp cha
+    - Overriding method (ghi đè phương thức)
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+
+class Dog extends Animal {
+  constructor(name) {
+    super(name); // call the super class constructor and pass in the name parameter
+  }
+//Overriding method
+  speak() {
+    console.log(`${this.name} barks.`);
+  }
+}
+
+let d = new Dog('Mitzie');
+d.speak(); // Mitzie barks.
+
+ES6 không hỗ trợ đa kế thừa (kế thừa từ nhiều class cha). Muốn thể hiện đa kế thừa ta phải tự xây dựng 1 class riêng để xử lý:
+https://jsfiddle.net/anonystick/j67L4xuh/10/
+
+- **Getter và Setter**
+    - Với getter và setter, sẽ có nhiều quyền kiểm soát hơn đối với các object properties sau khi khởi tạo với constructor.
+    - Có thể validation dữ liệu trong phương thức get và set trước khi setting or getting giá trị.
+class User {
+		//private properties
+    #name;
+    #email;
+    constructor(name, email) {
+      this.#name = name
+      this.#email = email
+    }
+  
+    get name() {
+		// Validation can happen on data
+      return this.#name;
+    }
+  
+    set name(newName) {
+    // Validation can happen on data
+      this.#name = newName
+    }
+  }
+  
+  let user = new User('User 1', 'user1@example.com');
+  console.log(user.name) // User 1
+  console.log(user.email) // undefined
+
+✔️ Link tham khảo
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-es6-aWj534XeK6m

@@ -1,0 +1,16 @@
+https://fire-hole-3af.notion.site/React-Props-9e65a97f0f254643a15d6c4fa4880d14
+
+React - Props
+✔️ Mindmap
+Các bước làm bài tập với state props ( Cách xác định state)
++ Bước 1: chia component và dàn layout
++ Bước 2: xác định thành phần thay đổi của giao diện (state). State là gì ? Là string hay number hay object hay array
++ Bước 3: xác định component nào chứa cả giao diện và cả nút xử lý => đặt state và các hàm xử lý (Hàm chứa phương thức setState) tại đó. Truyền các hàm xử lý đến nơi chưa các nút xử lý
+
+✔️ Link tham khảo
+https://lucybain.com/blog/2016/react-state-vs-pros/
+
+https://github.com/uberVU/react-guide/blob/master/props-vs-state.md
+
+Deploy React Project:
+https://docs.google.com/document/d/18IshbTE_4LJ4YEOtW9wKo6tGu4zpxiS72mBCiLK-4Is/edit

@@ -1,0 +1,21 @@
+https://fire-hole-3af.notion.site/JS-API-Axios-56a4bb9910af4c619549a2089d23d6fc
+
+JS - API, Axios
+✔️ Mindmap
+https://drive.google.com/file/d/1TrG_PkctZlCcv819rn6Zbl89rOLpgFC8/view
+
+✔️ Bất đồng bộ
+https://docs.google.com/presentation/d/1RRlXTKPgCmCTK6T3yBh3okRwkGFkvz07/edit#slide=id.p1
+
+✔️ AXIOS
+- Hướng dẫn thư viện
+https://github.com/axios/axios
+
+- Test API bằng postman
+link download:
+https://www.postman.com/downloads/
+
+Hướng dẫn sử dụng
+https://learning.postman.com/docs/getting-started/introduction/
+
+https://www.youtube.com/watch?v=iFMLyMgCUTs&feature=youtu.be

@@ -1,0 +1,9 @@
+https://fire-hole-3af.notion.site/T-O-API-B-NG-MOCKAPI-bb4c0423419e4d6bbb99acb1c8043c4a
+
+TẠO API BẰNG MOCKAPI
+✔️ Hướng dẫn
+https://mockapi.io/
+https://docs.google.com/document/d/1Bx2dmaQWK9avOFx_IuZMZYcICINVE7ry/edit
+
+✔️ Extension xem Json
+https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en

@@ -1,0 +1,21 @@
+https://fire-hole-3af.notion.site/React-Component-051558d94f3a401d90dec0c0693d7246#b9339d342a674a20b163a4c951069ff3
+
+React - Component
+✔️ Mindmap
+✔️ Link tham khảo
+- Emmet for JSX:
+
+Mở setting và thêm languages cho Emmet (Xem hình bên dưới)
+
+Extension
+https://marketplace.visualstudio.com/items?itemName=riazxrazor.html-to-jsx
+
+https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+
+https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+
+Trang chủ react
+https://reactjs.org/docs/getting-started.html
+
+Tool giúp xem component trên browser
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi

@@ -1,0 +1,13 @@
+https://fire-hole-3af.notion.site/React-State-6c9686a0fbbd4b81abc01922153cd016
+
+React - State
+✔️ Mindmap
+Tổng hợp kiến thức State
+Các bước xác định state:
++ Dữ liệu nào thay đổi chúng ta sẽ đặt trong thuộc tính của state
++ Nơi lưu giữ state ở component phải thoả 2 điều kiện
+    _ Component phải có chứa UI
+    _ Component phải có chứa control xử lý làm thay đổi state
+
+✔️ Link tham khảo
+https://reactjs.org/docs/faq-state.html#gatsby-focus-wrapper
