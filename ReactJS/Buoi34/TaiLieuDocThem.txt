@@ -1,0 +1,12 @@
+https://fire-hole-3af.notion.site/React-Redux-8bc6b3a6766c4bd8acc7a036b0f1fa26
+
+React - Redux
+✔️ Mindmap
+https://fire-hole-3af.notion.site/React-Redux-8bc6b3a6766c4bd8acc7a036b0f1fa26
+
+https://fire-hole-3af.notion.site/React-Redux-8bc6b3a6766c4bd8acc7a036b0f1fa26
+
++ Từ UI, ta sẽ gửi một action, là một object miêu tả điều chúng ta muốn làm .
++ Reducer sẽ tiếp nhận và xử lý action. Tại reducer, ta sẽ có 1 Root reducer để tổng hợp, và 1 child reducer để xử lý từng thuộc tính, trong trường hợp này là deposit 
++ Tại child reducer sẽ kiểm tra action,cập nhật lại và trả ra deposit mới 
++ Tại Component UI ta truy cập lên store để lây deposit về và hiển thị ra màn hình
