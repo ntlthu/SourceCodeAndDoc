@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // biên dịch ra code javascript tùy vào phiên bản mình chọn.
+    "outDir": "./js", // tự tạo ra thư mục và file javascript tương ứng với file typescript
+    "module": "CommonJS" // require()
+  }
+}

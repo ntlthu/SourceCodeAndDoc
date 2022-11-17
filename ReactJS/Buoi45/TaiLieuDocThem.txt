@@ -1,0 +1,15 @@
+https://fire-hole-3af.notion.site/JS-TypeScript-f87aa66ddf324d9b86052c4b5a04ef05
+
+JS - TypeScript
+✔️ Cheat sheet
+https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7f36fa3d-8014-4954-ab89-34c9f8980d4d/TypeScript_Control_Flow_Analysis.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221117T075225Z&X-Amz-Expires=86400&X-Amz-Signature=22af8732568f5825ca8e14694a8cc1a5d6a21b675d2fe82dec9bed0e06ae112a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22TypeScript%2520Control%2520Flow%2520Analysis.pdf%22&x-id=GetObject
+
+https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ac75d5f-70ff-4000-be4d-0d69264aa5c6/TypeScript_Classes.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221117T075255Z&X-Amz-Expires=86400&X-Amz-Signature=c1cf863afdbda8efcaca1315ef6f9dcccb59a77401d7ae5f6a4f1387189f7c6d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22TypeScript%2520Classes.pdf%22&x-id=GetObject
+
+https://s3.us-west-2.amazonaws.com/secure.notion-static.com/834b1670-691b-483a-b3fc-2ce4ef136639/TypeScript_Interfaces.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221117T075314Z&X-Amz-Expires=86400&X-Amz-Signature=cabaa07c160a1a443b3ec14dc7bcf1555a2ce18ae47a678d5ac148d69d0f2de6&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22TypeScript%2520Interfaces.pdf%22&x-id=GetObject
+
+
+https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7444813b-ed39-46b7-87a2-ea5292b21d5a/TypeScript_Types.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221117T075331Z&X-Amz-Expires=86400&X-Amz-Signature=90af65e81bdf06e9f038436a6027550581d7b3b6f6420b16fdc58af707cc7e8f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22TypeScript%2520Types.pdf%22&x-id=GetObject
+
+✔️ Link tham khảo
+https://www.typescriptlang.org/
