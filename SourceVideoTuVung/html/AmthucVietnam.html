@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuVung</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../slick-1.8.1/slick/slick.css"
+    />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../slick-1.8.1/slick/slick-theme.css"
+    />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/VideoTuVung.css" />
+  </head>
+
+  <body>
+    <section class="mt-3">
+      <div class="parentGroup">
+        <div class="contentOutputVideo">
+          <div class="rika">
+            <div class="rikalogo">
+              <img src="../img/Học Tiếng Nhật Cùng.png" alt="" />
+              <h3 class="">Rika Channel</h3>
+            </div>
+
+            <div class="rikabutton">
+              <button class="buttonListen">Luyện Nghe</button>
+              <button class="buttonRead">Luyện Đọc</button>
+              <button class="buttonTrans">Luyện Dịch</button>
+              <h4>Luyện 3 kỹ năng tiếng Nhật chỉ trong 1 video</h4>
+            </div>
+          </div>
+          <div class="rikacontentNgheDoc">
+            <div>
+              <p
+                class="buttonluyendich moving-text-dich gradient-text10"
+                style="font-size: 22px; text-align: center; font-weight: 900"
+              >
+                Từ Vựng
+              </p>
+            </div>
+            <div class="carousel_single-item mt-3">
+              <div class="slideCarouselAmThuc">
+                <div id="p1" class="">
+                  <h3>Heading 1</h3>
+                  <p id="p2">Paragraph 1</p>
+                </div>
+
+                <div class="myDiv">
+                  <h3>Heading 2</h3>
+                  <p>Paragraph 2</p>
+                </div>
+
+                <div class="myDiv">
+                  <h3>Heading 3</h3>
+                  <p>Paragraph 3</p>
+                </div>
+              </div>
+
+              <div class="slideCarouselAmThuc">
+                <video
+                  id="myVideo"
+                  style="border-radius: 15px"
+                  src="../img/thankcoamthanh.mp4"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="prepare ms-4">
+          <button id="playButton">Phát</button>
+          <div class="buttonslide1">
+            <button onclick="toggleParagraph(1)">p1</button>
+            <button onclick="toggleParagraph(2)">p2</button>
+            <button onclick="toggleParagraph(3)">Banh xeo</button>
+            <button onclick="toggleParagraph(4)">Banh khot</button>
+            <button onclick="toggleParagraph(5)">Goi cuon</button>
+            <button onclick="toggleParagraph(6)">Bo pia ngot</button>
+            <button onclick="toggleParagraph(7)">Bo bia man</button>
+            <button onclick="toggleParagraph(8)"></button>
+            <button onclick="toggleParagraph(9)"></button>
+            <button onclick="toggleParagraph(10)"></button>
+            <button onclick="toggleParagraph(11)"></button>
+          </div>
+          --------------------------
+          <br />
+          <div class="buttonslide2">
+            <button onclick="toggleParagraph(12)"></button>
+            <button onclick="toggleParagraph(13)"></button>
+            <button onclick="toggleParagraph(14)"></button>
+            <button onclick="toggleParagraph(15)"></button>
+            <button onclick="toggleParagraph(16)"></button>
+            <button onclick="toggleParagraph(17)"></button>
+            <button onclick="toggleParagraph(18)"></button>
+            <button onclick="toggleParagraph(19)"></button>
+            <button onclick="toggleParagraph(20)"></button>
+          </div>
+          --------------------------
+          <br />
+          <div class="buttonslide3">
+            <button onclick="toggleParagraph(21)"></button>
+            <button onclick="toggleParagraph(22)"></button>
+            <button onclick="toggleParagraph(23)"></button>
+            <button onclick="toggleParagraph(24)"></button>
+            <button onclick="toggleParagraph(25)"></button>
+            <button onclick="toggleParagraph(26)"></button>
+          </div>
+          --------------------------
+          <br />
+          <div class="buttonslide4">
+            <button onclick="toggleParagraph(27)"></button>
+            <button onclick="toggleParagraph(28)"></button>
+            <button onclick="toggleParagraph(29)"></button>
+            <button onclick="toggleParagraph(30)"></button>
+            <button onclick="toggleParagraph(31)"></button>
+            <button onclick="toggleParagraph(32)"></button>
+            <button onclick="toggleParagraph(33)"></button>
+            <button onclick="toggleParagraph(44)"></button>
+            <button onclick="toggleParagraph(45)"></button>
+          </div>
+          --------------------------
+          <br />
+          <div class="buttonslide5">
+            <button onclick="toggleParagraph(34)"></button>
+            <button onclick="toggleParagraph(35)"></button>
+            <button onclick="toggleParagraph(36)"></button>
+            <button onclick="toggleParagraph(37)"></button>
+            <button onclick="toggleParagraph(38)"></button>
+            <button onclick="toggleParagraph(39)"></button>
+            <button onclick="toggleParagraph(40)"></button>
+            <button onclick="toggleParagraph(41)"></button>
+            <button onclick="toggleParagraph(42)"></button>
+            <button onclick="toggleParagraph(43)"></button>
+          </div>
+        </div>
+        <div class="amthanh">
+          <div class="amthanhslide1">
+            <audio
+              id="audio1"
+              src="https://storage.dekiru.vn/Data/2019/10/09/kai.mp3"
+            ></audio>
+            <audio
+              id="audio2"
+              src="../audio/tien-cookie-ft-thanh-ngan-piano-sheet.mp3"
+            ></audio>
+            <audio id="audio3" src="../audio/AmThucVietNam/banhxeo.mp3"></audio>
+            <audio
+              id="audio4"
+              src="../audio/AmThucVietNam/banhkhot.mp3"
+            ></audio>
+            <audio id="audio5" src="../audio/AmThucVietNam/goicuon.mp3"></audio>
+            <audio
+              id="audio6"
+              src="../audio/AmThucVietNam/boabiangot.mp3"
+            ></audio>
+            <audio
+              id="audio7"
+              src="../audio/AmThucVietNam/bobiaman_offical.mp3"
+            ></audio>
+            <audio id="audio8" src=""></audio>
+            <audio id="audio9" src=""></audio>
+            <audio id="audio10" src=""></audio>
+            <audio id="audio11" src=""></audio>
+          </div>
+          <div class="amthanhslide2">
+            <audio id="audio12" src=""></audio>
+            <audio id="audio13" src=""></audio>
+            <audio id="audio14" src=""></audio>
+            <audio id="audio15" src=""></audio>
+            <audio
+              id="audio16"
+              src="../audio/3600matHangTangGia/スナック菓子1685974398.mp3"
+            ></audio>
+            <audio
+              id="audio17"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%8B%E3%81%97&kanji=%E8%8F%93%E5%AD%90"
+            ></audio>
+            <audio
+              id="audio18"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%A1%E3%82%87%E3%81%86%E3%81%BF%E3%82%8A%E3%82%87%E3%81%86&kanji=%E8%AA%BF%E5%91%B3%E6%96%99"
+            ></audio>
+            <audio
+              id="audio19"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%84%E3%82%93%E3%82%8A%E3%82%87%E3%81%86&kanji=%E9%A3%B2%E6%96%99"
+            ></audio>
+            <audio
+              id="audio20"
+              src="../audio/3600matHangTangGia/takiniwataru.mp3"
+            ></audio>
+          </div>
+          <div class="amthanhslide3">
+            <audio
+              id="audio21"
+              src="../audio/3600matHangTangGia/TangGia_C3.mp3"
+            ></audio>
+            <audio
+              id="audio22"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%BF%E3%82%93%E3%81%8B%E3%82%93&kanji=%E6%B0%91%E9%96%93"
+            ></audio>
+            <audio
+              id="audio23"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%A1%E3%82%87%E3%81%86%E3%81%95&kanji=%E8%AA%BF%E6%9F%BB"
+            ></audio>
+            <audio
+              id="audio24"
+              src="../audio/3600matHangTangGia/teikoku_帝国データバンク-1686016241.mp3"
+            ></audio>
+            <audio
+              id="audio25"
+              src="../audio/3600matHangTangGia/Nguphap-～によると、～によりますと1686017445.mp3"
+            ></audio>
+            <audio
+              id="audio26"
+              src="../audio/3600matHangTangGia/Từ-vựng_Nguyen.mp3"
+            ></audio>
+          </div>
+          <div class="amthanhslide4">
+            <audio
+              id="audio27"
+              src="../audio/3600matHangTangGia/TangGia_C4.mp3"
+            ></audio>
+            <audio
+              id="audio28"
+              src="../audio/3600matHangTangGia/Từ-vựng_Nguyen.mp3"
+            ></audio>
+            <audio
+              id="audio29"
+              src="https://storage.dekiru.vn//Data/2016/12/29/man-636186195301858758.mp3"
+            ></audio>
+            <audio
+              id="audio30"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%A8%E3%81%A3%E3%81%B1&kanji=%E7%AA%81%E7%A0%B4"
+            ></audio>
+            <audio
+              id="audio31"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%82%8B%E3%81%84%E3%81%91%E3%81%84&kanji=%E7%B4%AF%E8%A8%88"
+            ></audio>
+            <audio
+              id="audio32"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%86%E3%82%8F%E3%81%BE%E3%82%8F%E3%82%8B&kanji=%E4%B8%8A%E5%9B%9E%E3%82%8B"
+            ></audio>
+            <audio
+              id="audio33"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%BF%E3%81%A8%E3%81%8A%E3%81%97&kanji=%E8%A6%8B%E9%80%9A%E3%81%97"
+            ></audio>
+          </div>
+          <div class="amthanhslide5">
+            <audio
+              id="audio34"
+              src="../audio/3600matHangTangGia/TangGia_C5.mp3"
+            ></audio>
+            <audio
+              id="audio35"
+              src="../audio/3600matHangTangGia/Từ-vựng_Nguyen.mp3"
+            ></audio>
+            <audio
+              id="audio36"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%82%86%E3%82%8B%E3%82%84%E3%81%8B&kanji=%E7%B7%A9%E3%82%84%E3%81%8B"
+            ></audio>
+            <audio
+              id="audio37"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%92%E3%82%93%E3%81%9D%E3%81%8F&kanji=%E6%B8%9B%E9%80%9F"
+            ></audio>
+            <audio
+              id="audio38"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%93%E3%81%86%E3%81%AF%E3%82%93&kanji=%E5%BE%8C%E5%8D%8A"
+            ></audio>
+            <audio
+              id="audio39"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%8B%E3%81%8B%E3%81%8F&kanji=%E4%BE%A1%E6%A0%BC"
+            ></audio>
+            <audio
+              id="audio40"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%99%E3%81%88%E3%81%8A%E3%81%8D&kanji=%E6%8D%AE%E3%81%88%E7%BD%AE%E3%81%8D"
+            ></audio>
+            <audio
+              id="audio41"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%AD%E3%81%95%E3%81%92&kanji=%E5%80%A4%E4%B8%8B%E3%81%92"
+            ></audio>
+            <audio
+              id="audio42"
+              src="../audio/3600matHangTangGia/akihiro値上げ控え-1686023699.mp3"
+            ></audio>
+            <audio
+              id="audio43"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%86%E3%81%94%E3%81%8D&kanji=%E5%8B%95%E3%81%8D"
+            ></audio>
+            <audio
+              id="audio44"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%B2%E3%82%8D%E3%81%8C%E3%82%8B&kanji=%E5%BA%83%E3%81%8C%E3%82%8B"
+            ></audio>
+            <audio
+              id="audio45"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%8B%E3%81%AE%E3%81%86%E3%81%9B%E3%81%84&kanji=%E5%8F%AF%E8%83%BD%E6%80%A7"
+            ></audio>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BS -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick carousel -->
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel_single-item").slick({
+          // setting-name: setting-value
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- TOOLTIPS BS -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <!-- Popovers -->
+    <!-- <script>
+           const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+           const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+       </script> -->
+    <script>
+      $(".control-audio").click(function () {
+        let src = $(this).attr("src");
+        const audio = new Audio(src);
+        audio.play();
+      });
+    </script>
+    <script>
+      var video = document.getElementById("myVideo");
+      var playButton = document.getElementById("playButton");
+
+      playButton.addEventListener("click", function () {
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    </script>
+    <script src="../js/tuVung.js"></script>
+  </body>
+</html>

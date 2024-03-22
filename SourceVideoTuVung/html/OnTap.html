@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../slick-1.8.1/slick/slick.css"
+    />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../slick-1.8.1/slick/slick-theme.css"
+    />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/1or2Kanji.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="video-background">
+        <!-- <video autoplay muted loop id="video">
+          <source
+            src="../img/Canhhoaroi_ver2_backgroundtrang.mp4"
+            type="video/mp4"
+          />
+        </video> -->
+        <div class="parentGroup">
+          <div class="content contentOutputVideo">
+            <div class="rika">
+              <div class="rikalogo">
+                <img src="../img/Học Tiếng Nhật Cùng.png" alt="" />
+                <h3 class="">Rika Channel</h3>
+              </div>
+
+              <div class="rikabutton">
+                <button class="buttonListen">Luyện Nghe</button>
+                <button class="buttonRead">Luyện Đọc</button>
+                <button class="buttonTrans">Luyện Dịch</button>
+                <h4>Luyện 3 kỹ năng tiếng Nhật chỉ trong 1 video</h4>
+              </div>
+            </div>
+            <div class="rikacontentNgheDoc">
+              <div class="carousel_single-item mt-3">
+                <div class="slideCarousel">
+                  <video
+                    style="border-radius: 15px"
+                    id="video1"
+                    src="../img/Day5Tuan1/Part2_OnTap_End.mp4"
+                  ></video>
+                </div>
+                <div class="slideCarousel">
+                  <video style="border-radius: 15px" id="video2" src=""></video>
+                </div>
+                <div class="slideCarousel">
+                  <video style="border-radius: 15px" id="video3" src=""></video>
+                </div>
+                <!-- <div class="slideCarousel">
+                  <video style="border-radius: 15px" id="video4" src=""></video>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="content1 support">
+            <div class="prepare ms-4">
+              <div class="phatVideo">
+                <button onclick="playVideo('video1')">MoDau</button>
+                <button onclick="playVideo('video2')">OnTap_1</button>
+                <button onclick="playVideo('video3')">OnTap_2</button>
+                <!-- <button onclick="playVideo('video4')">OnTap_3</button> -->
+              </div>
+            </div>
+            <div class="amthanh">
+              <div class="amthanhslide1">
+                <audio
+                  id="audio1"
+                  src="../audio/tien-cookie-ft-thanh-ngan-piano-sheet.mp3"
+                ></audio>
+                <audio
+                  id="audio2"
+                  src="../audio/tien-cookie-ft-thanh-ngan-piano-sheet.mp3"
+                ></audio>
+                <audio id="audio3" src=""></audio>
+                <audio id="audio4" src=""></audio>
+                <audio id="audio5" src=""></audio>
+                <audio id="audio6" src=""></audio>
+                <audio id="audio7" src=""></audio>
+                <audio id="audio8" src=""></audio>
+                <audio id="audio9" src=""></audio>
+                <audio id="audio10" src=""></audio>
+                <audio id="audio11" src=""></audio>
+              </div>
+              <div class="amthanhslide2">
+                <audio id="audio12" src=""></audio>
+                <audio id="audio13" src=""></audio>
+                <audio id="audio14" src=""></audio>
+                <audio id="audio15" src=""></audio>
+                <audio id="audio16" src=""></audio>
+                <audio id="audio17" src=""></audio>
+                <audio id="audio18" src=""></audio>
+                <audio id="audio19" src=""></audio>
+                <audio id="audio20" src=""></audio>
+              </div>
+              <div class="amthanhslide3">
+                <audio id="audio21" src=""></audio>
+                <audio id="audio22" src=""></audio>
+                <audio id="audio23" src=""></audio>
+                <audio id="audio24" src=""></audio>
+                <audio id="audio25" src=""></audio>
+                <audio id="audio26" src=""></audio>
+                <audio id="audio27" src=""></audio>
+                <audio id="audio28" src=""></audio>
+                <audio id="audio29" src=""></audio>
+                <audio id="audio30" src=""></audio>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BS -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick carousel -->
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel_single-item").slick({
+          // setting-name: setting-value
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- TOOLTIPS BS -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <!-- Popovers -->
+    <!-- <script>
+           const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+           const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+       </script> -->
+    <script>
+      $(".control-audio").click(function () {
+        let src = $(this).attr("src");
+        const audio = new Audio(src);
+        audio.play();
+      });
+    </script>
+
+    <script src="../js/tuVung.js"></script>
+  </body>
+</html>

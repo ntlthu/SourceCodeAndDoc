@@ -1,0 +1,868 @@
+/* GLOBAL CSS */
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+p a {
+  color: black;
+  font-weight: 500;
+}
+
+:root {
+  --pink: #dc4f72;
+  --secondary: #0d5fa8;
+  --title-color: #2c3038;
+  --text-color: #5a5a5a;
+}
+/* header .image {
+  width: 100px;
+  height: 100px;
+} */
+
+/* nav#breadcrumbs {
+  padding: 15px 20px;
+  background: #f7f9fc;
+} */
+
+/* .page-wrapper {
+  color: var(--title-color);
+  font-size: 14px;
+} */
+
+/* nav#breadcrumbs a {
+  color: var(--pink);
+  margin: 0 5px 0 0;
+  font-size: 14px;
+} */
+
+/* nav#breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1040px) {
+  nav#breadcrumbs {
+    padding: 10px 0px;
+  }
+} */
+
+/* @media screen and (max-width: 992px) {
+      .breadcrumbs {
+        margin-top: 70px;
+      }
+    } */
+/* FAQs */
+/* .FAQs__QA {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      } */
+
+/* .faq-page {
+  margin-right: 5px;
+} */
+
+/* .FAQs__QA h2 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  color: var(--title-color);
+  text-align: center;
+} */
+
+/* .FAQs__QA p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24.5px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  height: 400px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+} */
+
+/* .FAQs__QA ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+} */
+/* 
+.FAQs__QA ul li {
+  position: relative;
+  padding: 10px 40px 0px 13px;
+  border: 1px solid #eee;
+  margin: 0 0 15px 0;
+  border-radius: 6px;
+  background: #fff;
+  max-width: 420px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
+}
+.FAQs__QA ul li.rowle {
+  background-color: rgb(206, 241, 247);
+}
+.FAQs__QA ul li.rowchan {
+  background-color: rgb(239, 199, 245);
+}
+.FAQs__QA ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.FAQs__QA ul li i.muiten {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 2px;
+  right: 15px;
+  top: 16px;
+} */
+
+/* .FAQs__QA ul li i.muiten::before,
+.FAQs__QA ul li i.muiten::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 9px;
+}
+
+.FAQs__QA ul li i.muiten::before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+.FAQs__QA ul li i.muiten:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+.FAQs__QA ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  -webkit-appearance: none;
+} */
+/* 
+.FAQs__QA ul li input[type="checkbox"]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+
+.FAQs__QA ul li input[type="checkbox"]:checked ~ i.muiten:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+.FAQs__QA ul li input[type="checkbox"]:checked ~ i.muiten:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+} */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* .flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 150px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+  border-radius: 8px;
+  display: inline-block;
+} */
+
+/* This container is needed to position the front and back side */
+/* .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border-radius: 8px;
+} */
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+} */
+/* Position the front and back side */
+/* .flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+} */
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+  background: white;
+  color: black;
+} */
+
+/* Style the back side */
+/* .flip-card-back {
+  background: white;
+  color: black;
+  transform: rotateY(180deg);
+  padding-top: 5px;
+}
+
+.faq-page p ruby rt i {
+  font-size: 13px;
+}
+ruby rt i {
+  font-size: 13px;
+}
+.parentContent a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #2c3038;
+} */
+
+/* .childContent {
+  padding-left: 30px;
+}
+
+.fa-play {
+  color: #dc4f72;
+}
+
+ol li a {
+  color: #5a5a5a;
+}
+
+.audio {
+  width: 100%;
+} */
+/* .subcontent {
+      position: relative;
+    } */
+
+/* .subcontent .fix {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 70px;
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+  .subcontent .fix {
+    top: 135px;
+  }
+} */
+
+/* .table {
+  overflow: scroll;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10px;
+}
+.table table {
+  border: 1px solid black;
+  width: 100%;
+}
+.table table td {
+  padding: 7px;
+}
+.tableHeader {
+  position: sticky;
+  top: 0;
+  background-color: rgb(89, 223, 98);
+}
+.tableTitle {
+  color: #dc4f72;
+} */
+
+/* .talkContent {
+  width: 100%;
+  position: relative;
+  overflow: auto; */
+/* height:500px; */
+/* border:1px solid #dc4f72; */
+/* padding-top:30px; */
+/* padding-bottom: 30px; */
+/* } */
+
+/* .audioFix {
+  position: fixed;
+  margin-top:-30px;
+  bottom: 0;
+  display: block;
+  background-color: #dc4f72;
+  color: white;
+  width: 100%;
+} */
+/* 
+.talkContent_text {
+  margin-bottom: 100px;
+}
+.table > :not(caption) > * > * {
+  padding: 0;
+}
+
+.tab-pane article h4 {
+  text-align: center;
+}
+
+.tab-pane article h4 a {
+  color: #020408;
+  font-weight: 500;
+}
+.tab-pane article p {
+  line-height: 2;
+}
+.tab-pane p ruby rt i {
+  font-size: 12px;
+}
+.tab-pane h5 {
+  color: #dc4f72;
+  font-weight: 600;
+}
+.tab-pane p span {
+  background-color: rgb(154, 253, 220);
+}
+.tab-pane .detailGram {
+  padding-left: 20px;
+} */
+
+/* .video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+} */
+
+/* #video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* .content {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #020408;
+} */
+
+.parentGroup {
+  display: flex;
+  justify-content: space-between;
+}
+.parentGroup .contentOutputVideo {
+  margin-left: 20px;
+  width: 1280px;
+  height: 720px;
+}
+.rika {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+.rikacontentNgheDoc h2 {
+  font-size: 33px;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+  padding-top: 18px;
+  color: #1e90ff;
+}
+/* màu text */
+.gradient-text1 {
+  background-image: linear-gradient(to right, #000000, #686767);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text2 {
+  background-image: linear-gradient(to left, #000000, #737373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text3 {
+  background-image: linear-gradient(to bottom left, #000000, #737373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text4 {
+  background-image: linear-gradient(to top left, #000000, #737373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text5 {
+  background-image: linear-gradient(90deg, #5170ff, #ff66c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text6 {
+  background-image: linear-gradient(90deg, #000000, #c89116);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text7 {
+  background-image: linear-gradient(90deg, #ff2970, #a91bac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text8 {
+  background-image: linear-gradient(90deg, #8c52ff, #00bf63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text9 {
+  background-image: linear-gradient(90deg, #5de0e6, #004aad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text10 {
+  background-image: linear-gradient(90deg, #004aad, #cb6ce6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text11 {
+  background-image: linear-gradient(90deg, #ff3131, #ff914d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text12 {
+  background-image: linear-gradient(90deg, #006699, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* ----------------- */
+/* background tạm thời */
+/* .rikacontentNgheDoc {
+  background-color: #a9d8d7;
+} */
+.rikacontentNgheDoc .vanban p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 32px;
+  margin-top: 22px;
+}
+.rikacontentNgheDoc .vanban .p-padding1 {
+  padding-top: 15px;
+}
+/* .rikacontentNgheDoc .vanban .p-padding2 {
+  
+} */
+.rikacontentNgheDoc .vanban .p-padding3 {
+  padding-top: 24px;
+}
+.rikacontentNgheDoc .vanban .p-padding4 {
+  padding-top: 46px;
+}
+.rikatitle {
+  display: flex;
+  justify-content: space-around;
+}
+.rikatitle .buttonluyennghe {
+  /* background-color: #4caf50; */
+  border: solid 1px;
+  color: #fff;
+  padding: 14px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.rikatitle p.buttonluyendoc {
+  border: solid 1px;
+  color: #fff;
+  padding: 14px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-image: linear-gradient(90deg, #8c52ff, #00bf63);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+p.buttonluyendich {
+  margin-bottom: 5px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+.moving-text {
+  animation: move 3s linear infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.moving-text-dich {
+  animation: moveTextdich 3s linear infinite;
+}
+@keyframes moveTextdich {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.rikabutton {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 13px;
+}
+.rikalogo {
+  display: inline-block;
+}
+
+.rikalogo img {
+  width: 75px;
+}
+.rikalogo h3 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ff4500;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+.rikabutton button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    #f55f8d 0,
+    #f8ae56 51%,
+    #f55f8d 100%
+  );
+  transition: all 0.5s;
+  background-size: 200%;
+}
+.rikabutton button:hover {
+  background-position: right center;
+}
+.rikabutton h4 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 25px;
+  animation: colorChange 5s infinite;
+}
+/* gốc */
+/* @keyframes colorChange {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+} */
+@keyframes colorChange {
+  0% {
+    color: #0000ff;
+  }
+  50% {
+    color: #07d2f6;
+  }
+  100% {
+    color: green;
+  }
+}
+/* CHOOSE US */
+.chooseUs__content .item {
+  border-radius: 6px;
+  background-color: #f7f9fc;
+  /* padding: 3rem 2rem; */
+  border: 1px solid #f7f9fc;
+  /* transition: all 0.4s ease-in; */
+  height: 435px;
+}
+
+/* .chooseUs__content .item:hover {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-0.5rem);
+} */
+
+.background_title {
+  background-image: linear-gradient(90deg, #fff7ad, #ffa9f9);
+}
+.chooseUs__content .item h3 {
+  font-size: 26px;
+  line-height: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.chooseUs__content .item p {
+  color: var(--text-color);
+  font-weight: 700;
+  /* font-size: 20px; */
+  /* line-height: 24.5px; */
+  text-align: left;
+  margin-bottom: 13px;
+  transition: all 0.4s ease-in;
+}
+.chooseUs__content .item .sizeTextVN {
+  font-size: 21px;
+  line-height: 29.5px;
+}
+.chooseUs__content .item .sizeTextJP {
+  font-size: 30px;
+  line-height: 44.5px;
+}
+.chooseUs__content .item p:hover {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-0.5rem);
+}
+/* .chooseUs__content .row {
+  padding-right: 5px;
+  padding-left: 5px;
+} */
+.chooseUs__content .row .setPadding {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.chooseUs__content .item .block1 {
+  height: 183px;
+}
+.chooseUs__content .item .block2 {
+  /* height: 75px; */
+}
+.chooseUs__content .item .blockShort {
+  height: 110px;
+}
+
+ruby {
+  word-break: keep-all;
+  /* ruby-position: over; */
+}
+.carousel_single-item {
+  /* background-color: antiquewhite; */
+  /* background-image: url(../img/mauxanhlam.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+
+  width: 100%;
+  /* text-align: center; */
+  height: 620px;
+}
+
+.videothanks {
+  width: 100%;
+  max-height: 600px;
+}
+.carousel_single-item .vanban {
+  text-align: center;
+}
+
+.slick-dots li button::before {
+  color: rgb(245, 12, 12);
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #960303;
+  opacity: 1;
+}
+
+.background_rika {
+  background-image: url(./img/rika.png);
+
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item .pTuvung span {
+  color: #0d6efd;
+}
+.item .gramContent .detailGram span {
+  width: 46px;
+}
+
+.prepare .supportQuay {
+  display: block;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+/* Chia cột từ vựng */
+.carousel_single-item .changeContent {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel_single-item .changeContent .changeContent1 {
+  width: 50%;
+  padding-left: 30px;
+}
+/* Hiệu ứng JS và âm thanh */
+/* #text {
+  transition: transform 0.5s, background-color 0.5s, color 0.5s;
+} */
+.highlight {
+  /* background-color: #b3f3fe; */
+  /* màu trang trí họa tiết ↓ */
+  /* background-image: linear-gradient(to right, #F2E8D4, #C6C5B9, #EDC4AF); */
+  /* màu mờ ↓ */
+  /* background-image: linear-gradient(to right, #C7D2C3, #EFE6DD, #D3C0B8); */
+  /* màu nước ↓ */
+  /* background-image: linear-gradient(to right, #a9d8d7, #d0f1f9, #c7ceea);
+  color: #dc4f72; */
+  color: rgb(223, 5, 5);
+
+  transition: transform 0.5s;
+  /* box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%); */
+  box-shadow: 10px 10px 5px rgb(194, 193, 193);
+  /* border-radius: 10px;
+  padding: 5px 15px; */
+}
+
+#contentChange p.active {
+  transition: transform 0.5s;
+}
+
+.carousel_single-item .slideCarousel p {
+  margin-top: 6px;
+  /* margin-bottom: 0; */
+}
+
+.carousel_single-item .slideCarousel .changeContent1 p {
+  font-size: 22px;
+}
+
+/* Ẩm thực việt nam */
+.carousel_single-item .slideCarouselAmThuc .slideAmthucFlex {
+  display: flex;
+}
+.slideCarouselAmThuc .slideAmthucFlex .VideoAmThuc {
+  width: 50%;
+  
+  
+}
+.slideCarouselAmThuc .slideAmthucFlex .AmThucContent {
+  width: 50%;
+  align-self: center;
+  text-align: center;
+  padding: 0 20px;
+  background-image: url(../img/rika.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.slideAmthucFlex .VideoAmThuc video {
+  border-radius: 20px;
+}
+/* .slideAmthucFlex .VideoAmThuc .videohinhvuong {
+width: 80%;
+height: 80%;
+border-radius: 20px;
+} */
+/* .AmThucContentJP {
+  padding: 0 20px;
+} */
+.slideCarouselAmThuc .slideAmthucFlex .banhXEO {
+  padding-left: 35px;
+}
+
+.myDiv {
+  cursor: pointer;
+}
+.red-text {
+  color: red;
+}
+.green-text {
+  color: green;
+}
