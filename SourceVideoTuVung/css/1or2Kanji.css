@@ -389,3 +389,17 @@ padding-left: 50px;
   video {
     border-radius: 5px;
   }
+
+  /* Chia cột từ vựng */
+.carousel_single-item .changeContent {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel_single-item .changeContent .changeContent1 {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.carousel_single-item .slideCarousel .changeContent1 p, .slideCarousel p {
+  font-size: 39px;
+}
